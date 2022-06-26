@@ -4,7 +4,7 @@ export default function Home(){
 
 return(
     <div>
-        Hola soy el home
+        Hola soy el hasdsad
     </div>
     
     )
