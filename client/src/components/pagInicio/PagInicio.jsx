@@ -1,19 +1,16 @@
 import React from 'react';
-import VideoInicio from "../../video/inicio.mp4"
-import VideoInicioOne from "../../video/inicio1.mp4"
-import Button from './Button'
+import NavBar from "../nav/NavBar"
+// import Video from "./Video"
+
 
 export default function PagInicio() {
 
    return (
     
-     <div className='videoInicio'>
+     <div>
         
-         <video className='video'src={VideoInicioOne} autoPlay loop muted />
-          <div>
-            <Button>Entre</Button>
-          </div>
-
+         {/* <Video /> */}
+         <NavBar />
          
          
      </div>

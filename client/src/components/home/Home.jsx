@@ -1,12 +1,13 @@
 import React from "react";   
-import Title from "./Title";
-
 
 export default function Home(){
 
 return(
     <div>
-      <Title />
+        <h1>
+        Hi Home
+
+        </h1>
     </div>
     
     )
